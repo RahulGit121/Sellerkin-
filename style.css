@@ -1,5 +1,8 @@
-body {
-  overflow: hidden; 
+body{
+    overflow-y: scroll;
+overflow-x: hidden;
+background-color: #FEFAE7;
+ 
 }
 .navbar{
     margin: auto;
@@ -17,8 +20,8 @@ body {
 }
 .logo img{
     margin: auto;
-border-radius: 100px;
-margin-right: 10px;
+margin-bottom: 15px;
+margin-right: 8px;
 
 }
 .logo p{
@@ -173,13 +176,14 @@ text-align: center;
 
 /* 2nd page/ */
 .container-body1{
- 
+ background-color: white;
     padding: 20px;
 }
 .pinned{
+    
     margin: 100px;
     padding: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FEFAE7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #pin{
@@ -227,6 +231,7 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .container-3 h1{
     font-size:40px;
@@ -245,7 +250,7 @@ text-align: center;
     width: 300px;
     border-radius: 10px;
     border: 2px solid rgb(255, 181, 116);
-    background-color: rgb(255, 248, 243);
+    background-color: #FEFAE7;;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .step p{
